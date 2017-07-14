@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Trans-Lab</title>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="calcular">
+	<nav>
+    	<div class="nav-wrapper barra-negra">
+      		<a href="#!" class="titulo-negro">TRANS-LAB</a>
+      		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      		<ul class="side-nav" id="mobile-demo">
+        		<li class="lista">
+        			<a href="ver-saldo.html"><i class="material-icons ico-ama">attach_money</i>Ver Saldo</a>
+        		</li>
+           		<li class="lista">
+              		<a href="calcular.html"><i class="material-icons ico-ama">dashboard</i></i>Calcular Tarifa</a>
+              	</li>
+        		<li class="lista">
+        			<a href="perfil.html"><i class="material-icons">perm_identity</i>Perfil</a>
+        		</li>
+        		<li class="lista">
+        			<a href="preguntas-frecuentes.html"><i class="material-icons ico-ama">book</i>Preguntas frecuentes</a>
+				</li>
+				<li class="lista">
+					<a href="menu.html"><i class="material-icons ico-ama">home</i>Home</a>
+				</li>
+      		</ul>
+    	</div>
+  </nav>
+  <section class="mostrar-tarjeta">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field">
+            <input type="text" placeholder="Numero de Tarjeta">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <select class="icons">
+            <option value="" disabled selected>Tarifa</option>
+            <option value="" class="circle">Horario Alto</option>
+            <option value="" class="circle">Horario Medio</option>
+            <option value="" class="circle">Horario Bajo</option>
+          </select>
+        </div>
+        <div class="col s6">
+          <select class="icons">
+            <option value="" disabled selected>N° Tarjeta</option>
+            <option value="" class="left circle">example 1</option>
+            <option value="" class="left circle">example 2</option>
+            <option value="" class="left circle">example 3</option>
+          </select>
+        </div>
+      </div>
+    </div> 
+    <div class="row">
+      <div class="col s12 center">
+        <a href="#"class="waves-effect waves-light btn pequeño">Calcular</a>
+      </div>
+    </div>
+  </section>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
