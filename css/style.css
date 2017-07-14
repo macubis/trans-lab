@@ -47,7 +47,7 @@ body{
 /*Menu HTML*/
 
 .menu{
-	background: whitesmoke;
+	background:#e0e0e0;
 }
 .barra-negra{
 	background: #263238; 
@@ -69,4 +69,21 @@ body{
 	width: 100%;
 	font-size: 18px;
 	padding: 0px;
+}
+.perfil{
+	background:#e0e0e0;
+}
+.perfil-foto{
+	background:#f9a825;	 
+}
+.mujer{
+	width: 56%;
+	padding: 15px 0px;
+}
+.tarjeta{
+	background:#e0e0e0;
+	padding:5px;
+}
+#tarjetas{
+	background:#e0e0e0;
 }
