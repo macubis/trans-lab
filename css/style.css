@@ -1,1 +1,60 @@
-/* YeyeYeee código aquí */
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: #263238;
+	font-family: 'Roboto', sans-serif;
+}
+#home{
+	padding-top: 50px;
+}
+.foto{
+	padding: 50px;
+}
+.portada{
+	width: 50%;
+}
+.titulo{
+	color:#f9a825;
+	font-weight: 900;
+	font-size: 33px;
+}
+.blanco{
+	background: white;
+	width: 90%;
+	height: 155px;
+}
+.amarillo{
+	background: #f9a825;
+	width: 288px;
+	height: 50px;
+	color:gray;
+	font-size: 20px;
+}
+.linea{
+	width: 330px;
+	display: inline-block;
+}
+.pregunta{
+	color:white;
+	padding-bottom: 20px;
+}
+.enlace{
+	color:#f9a825;
+	font-weight: 700;
+}
+/*Menu HTML*/
+.menu{
+	background: whitesmoke;
+}
+.botones{
+	padding-top:160px;
+}
+.botoncitos{
+	background:#f9a825;
+	color: white;
+	width: 100%;
+	font-size: 18px;
+	padding: 0px;
+}
