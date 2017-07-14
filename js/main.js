@@ -17,6 +17,10 @@ $(document).ready(function(){
         		}
           	 
          });
+
+    	$("#calcular").click(function(){
+    		
+    	});
  
     })
 
