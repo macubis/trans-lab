@@ -9,7 +9,7 @@
   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body class="menu">
+<body class="ver-saldo">
 	<nav>
     	<div class="nav-wrapper barra-negra">
       		<a href="#!" class="titulo-negro">TRANS-LAB</a>
@@ -34,25 +34,33 @@
     	</div>
   </nav>
 
- 	<section class="botones">
+ 	<section class="tarjeta-bip">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
-					<div class="input-field center">
-						<a href="ver-saldo.html" class="waves-effect waves-light btn botoncitos">VER SALDO</a>
+					<div class="input-field center espacio">
+						<input type="text" placeholder="N° Tarjeta">
 					</div>
-					<div class="input-field">
-						<a class="waves-effect waves-light btn botoncitos">CALCULAR TARIFA</a>
-					</div>
-					<div class="input-field">
-						<a href="perfil.html" class="waves-effect waves-light btn botoncitos">PERFIL</a>
-					</div>
-					<div class="input-field">
-						<a href="preguntas-frecuentes.html"class="waves-effect waves-light btn botoncitos">PREGUNTAS FRECUENTES</a>
+  							<select class="browser-default" disabled>
+    							<option value="" disabled selected>Choose your option</option>
+    								<option value="1">Option 1</option>
+    								<option value="2">Option 2</option>
+    								<option value="3">Option 3</option>
+  							</select>
+					<div class="input-field center espacio">
+						<a href="#" class="waves-effect waves-light btn pequeño">VER SALDO</a>
 					</div>
 				</div>
 			</div>
 		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div id="plata">
+				
+			</div>
+			
+		</div>	
 	</section>
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
