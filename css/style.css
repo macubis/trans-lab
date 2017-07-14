@@ -45,8 +45,20 @@ body{
 	font-weight: 700;
 }
 /*Menu HTML*/
+
 .menu{
 	background: whitesmoke;
+}
+.barra-negra{
+	background: #263238; 
+	color:white;
+	font-size: 20px;
+}
+.titulo-negro{
+	padding-left: 43px;
+}
+.lista{
+	padding-bottom:20px;
 }
 .botones{
 	padding-top:160px;
